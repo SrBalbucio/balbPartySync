@@ -1,0 +1,49 @@
+#balbPartySync - Desenvolvido por Sr_Balbucio
+#
+#Em caso de dúvidas olhar a documentação!
+
+#---
+#Party Plugins Config - Como o Plugin deve fazer essa sincronização?
+#---
+
+#Escolha um plugin controlador, basicamente ele que irá controlar as Partys, caso não tenha use o balbParty.
+#Opções Disponíveis: PAF(PartyAndFriends Extended), PARTIES, BALBPARTY
+partyplugin: BALBPARTY
+
+#Ativar API de simulação?
+#Resumidamente, a API de simulação é uma forma fácil de usar o balaPartySync para criar, manegar e deletar partys.
+apisimulacao: true
+
+#Usar a simulação dos Plugins LostParties e mCore Party?
+simulacao: true
+
+#--
+#Configurações gerais
+#--
+
+#Ao #balbPartySync - Desenvolvido por Sr_Balbucio
+#
+#Em caso de dúvidas olhar a documentação!
+
+#---
+#Party Plugins Config - Como o Plugin deve fazer essa sincronização?
+#---
+
+#Escolha um plugin controlador, basicamente ele que irá controlar as Partys, caso não tenha use o balbParty.
+#Opções Disponíveis: PAF(PartyAndFriends Extended), PARTIES, BALBPARTY
+partyplugin: BALBPARTY
+
+#Ativar API de simulação?
+#Resumidamente, a API de simulação é uma forma fácil de usar o balaPartySync para criar, manegar e deletar partys.
+apisimulacao: true
+
+#Usar a simulação dos Plugins LostParties e mCore Party?
+simulacao: true
+
+#--
+#Configurações gerais
+#--
+
+#Ao estar ativado, assim que o player entra no servidor as partys são sincronizadas novamente.
+#Altamente recomendado que mantenha TRUE
+onjoin: true

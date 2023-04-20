@@ -1,0 +1,30 @@
+#balbPartySync - Desenvolvido por Sr_Balbucio!
+#
+#Esse documento é uma breve explicação do Plugin!
+#Leia se nunca teve contato com este plugin.
+
+#--
+##balbPartySync - Desenvolvido por Sr_Balbucio!
+#
+#Esse documento é uma breve explicação do Plugin!
+#Leia se nunca teve contato com este plugin.
+
+#--
+#PT-BR
+#--
+#Basicamente, este plugin consegue simular plugins de party e/ou syncar plugins de party entre si. Mas é necessário
+#entender que cada caso tem uma solução especifica, não vai ser todas as "misturas" que vão funcionar corretamente.
+#Para entender melhor o que vai e o que não vai funcionar, basta observar os plugins que irá utilizar:
+#
+#Existe três tipos de plugin: CONTROLADORES(Mestres), SIMULADOS e os ADAPTATIVOS, a principal diferença entre eles é
+#a Limitação da manutenção das Partys.
+#- O Controlador apenas cria, manega e deleta as Partys, nesse caso o balbPartySync apenas simula outros plugins de Party.
+#- O Simulado são aqueles plugins que o balbPartySync SIMULA, ele pega informações de OUTRO plugin e distribui como se
+#fosse original do plugin simulado.
+#- O Adaptativo consegue ser Controlador, Simulado e Sincronizado.
+#O balbSyncParty atualmente da suporte aos seguintes plugins de Party: PAF(Controlador), Parties(Controlador),
+#LostParties(Simulado), mCore Party(Simulado) e balbParty(Adaptativo).
+#
+#Fazendo um resumo rápido, você deve escolher um plugin Controlador que realmente irá administrar as Partys e o resto o
+#próprio balbPartySync irá fazer, ele criará uma API dos Plugins Simulados e servirá de Dependência para os plugin que
+#necessitam dela.
